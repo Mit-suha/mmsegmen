@@ -10,6 +10,8 @@ from mmengine.runner import Runner
 
 from mmseg.registry import RUNNERS
 
+from mmseg.utils import register_all_modules
+register_all_modules()                         # 注册mmseg自带的所有模型
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a segmentor')
