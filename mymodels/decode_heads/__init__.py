@@ -1,1 +1,1 @@
-from fpn_head import FPNHead
+from .fpn_head import FPNHead

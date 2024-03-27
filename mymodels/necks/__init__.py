@@ -1,1 +1,1 @@
-from fuse_neck import FuseNeck
+from .fuse_neck import FuseNeck

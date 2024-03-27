@@ -11,7 +11,7 @@ from .dpt_head import DPTHead
 from .ema_head import EMAHead
 from .enc_head import EncHead
 from .fcn_head import FCNHead
-from .fpn_head import FPNHead
+# from .fpn_head import FPNHead
 from .gc_head import GCHead
 from .ham_head import LightHamHead
 from .isa_head import ISAHead
@@ -39,7 +39,7 @@ from .vpd_depth_head import VPDDepthHead
 __all__ = [
     'FCNHead', 'PSPHead', 'ASPPHead', 'PSAHead', 'NLHead', 'GCHead', 'CCHead',
     'UPerHead', 'DepthwiseSeparableASPPHead', 'ANNHead', 'DAHead', 'OCRHead',
-    'EncHead', 'DepthwiseSeparableFCNHead', 'FPNHead', 'EMAHead', 'DNLHead',
+    'EncHead', 'DepthwiseSeparableFCNHead', 'EMAHead', 'DNLHead',
     'PointHead', 'APCHead', 'DMHead', 'LRASPPHead', 'SETRUPHead',
     'SETRMLAHead', 'DPTHead', 'SETRMLAHead', 'SegmenterMaskTransformerHead',
     'SegformerHead', 'ISAHead', 'STDCHead', 'IterativeDecodeHead',
