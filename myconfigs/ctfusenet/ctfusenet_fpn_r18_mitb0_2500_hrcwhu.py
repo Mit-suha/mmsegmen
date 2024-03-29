@@ -2,7 +2,7 @@ _base_ = [
     '../_base_/models/ctfusenet_r18_mitb0.py',
     '../_base_/datasets/hrc_whu.py',
     '../_base_/default_runtime.py',
-    '../_base_/schedules/schedule_160k.py',
+    '../_base_/schedules/schedule_2500.py',
 ]
 
 
