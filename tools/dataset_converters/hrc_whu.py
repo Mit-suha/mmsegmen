@@ -36,7 +36,7 @@ ann_list = os.listdir(ann_dir)
 
 
 
-for i in range(int(0.3*total_sample)):
+for i in range(50):
     randi = random.randint(0,total_sample-1-i)
     print(image_list[randi])
     print(ann_list[randi])
