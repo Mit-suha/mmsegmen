@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'HrcDataset'
-data_root = 'H:\\openmmlab\\HRC_WHU'
+data_root = '/home/yueyinlei/data/HRC_WHU'
 
 crop_size = (640, 360)
 
